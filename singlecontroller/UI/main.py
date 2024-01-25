@@ -9,7 +9,6 @@ import keyboard
 import CNN.yolov5 as yolo
 import time
 import logging 
-import UI.video_wrapper as vw
 import socket
 tello_ip = "192.168.10.1"
 tello_port = 8889

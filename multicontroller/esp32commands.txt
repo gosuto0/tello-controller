@@ -1,0 +1,13 @@
+socket commands
+
+Client
+c0 接続確認
+c1 接続終了
+
+Program
+allclear プログラム削除
+end プログラム終了
+
+Server
+s0 接続完了
+s1 プログラム書き込み開始
