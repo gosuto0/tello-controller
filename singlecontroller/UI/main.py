@@ -265,6 +265,8 @@ class UI(tk.Frame):
 
     def disp_image(self):
         try:
+            for i in range(2):
+                self.capture.read()
             _, frame = self.capture.read()
             pil_image = Image.fromarray(self.overray_image(frame))
             self.photo_image = ImageTk.PhotoImage(image=pil_image)
